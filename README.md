@@ -9,14 +9,14 @@ Project Name
 This repo contains the a zip folder with bunch of excel files having a sale data of different clients and their buyers info(name and pan), puchase amount etc . . .
 
 
-**details to be noted**:
-
-    filename: containd the name of the clinet and month 
-        Ex: ALSC_OCT_2021.xlsx 
-            ALSC -- client name
-            OCT -- month
-            2021 -- year
-    result file columns:
+**note**:
+    Input:
+        filename: Consists the name of the clinet and month and year.
+            Ex: ALSC_OCT_2021.xlsx 
+                ALSC -- client name
+                OCT -- month
+                2021 -- year
+    Output: Output file should contain below mentioned columns.
         pan no:
             PAN number will be unique for each buyer
             Some buyers may provide GST number pan number will be a substring of GST
@@ -36,6 +36,6 @@ This repo contains the a zip folder with bunch of excel files having a sale data
             Get buyer name fron imput file buyer column
 
 Question:
-    Write a python program to generate the single result file for all 3 inpput files:
+    Write a python program to generate the single result file for all 3 inpput files (for input files extract zip file):
     attached the actual result file for input files.
 
