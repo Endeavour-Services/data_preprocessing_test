@@ -1,16 +1,21 @@
-# Data Extraction Test
+# data_preprocessing_test
 
-This repo contains the a zip folder with bunch of excel files having sample sale data of different clients and their buyers info(name and pan), puchase amount etc . . .
+Project Name
+**Insurance Lead Generation Project**
+    The main idea of this project is to identify the leads using ML models from existing customer data and caliculting the risk for existing customers basing on their buyers data from large datasets. As part of generating large buyer dataset need to extract buyer data from different sources and formats.
 
-**Note**:
 
-    Input: 
-        filename: consists The name of the clinet, month and year 
+This repo contains the a zip folder with bunch of excel files having a sale data of different clients and their buyers info(name and pan), puchase amount etc . . .
+
+
+**details to be noted**:
+
+    filename: containd the name of the clinet and month 
         Ex: ALSC_OCT_2021.xlsx 
             ALSC -- client name
             OCT -- month
             2021 -- year
-    Output: Output file should contain below mentioned columns.
+    result file columns:
         pan no:
             PAN number will be unique for each buyer
             Some buyers may provide GST number pan number will be a substring of GST
@@ -29,7 +34,7 @@ This repo contains the a zip folder with bunch of excel files having sample sale
         Buyer name:
             Get buyer name fron imput file buyer column
 
-**Question**:
-
-Write a python program to generate the concatinated result file for all 3 inpput files (for input files extract zip file):
+Question:
+    Write a python program to generate the single result file for all 3 inpput files:
+    attached the actual result file for input files.
 
