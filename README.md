@@ -2,7 +2,8 @@
 
 This repo contains the a zip folder with bunch of excel files having a sale data of different clients and their buyers info(name and pan), puchase amount etc . . .
 
-details to be noted:
+**details to be noted**:
+
     filename: containd the name of the clinet and month 
         Ex: ALSC_OCT_2021.xlsx 
             ALSC -- client name
